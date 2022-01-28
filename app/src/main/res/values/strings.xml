@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Domer</string>
+    <string name="menu_item_map">Карта</string>
+    <string name="menu_item_help">Помощь</string>
+    <string name="ok_button_dialog">ОК</string>
+    <string name="cancel_button_dialog">ОТМЕНА</string>
+    <string name="speak">ГОВОРИ!</string>
+    <string name="plane">WHAT</string>
+    <string name="search">Поиск</string>
+    <string name="article">Артикул</string>
+    <string name="menu_item_search">Поиск</string>
+    <string name="menu_item_mic">Голос</string>
+    <string name="searchView">Запрос</string>
+    <string name="whouse">Склад</string>
+    <string name="rack">Стеллаж</string>
+    <string name="line">Линия</string>
+    <string name="ceil">Ячейка</string>
+    <string name="menu_item_options">Настройки</string>
+    <string-array name="toppings">
+        <item>Сенсор</item>
+        <item>Голос</item>
+    </string-array>
+    <string-array name="helper">
+        <item>**ЗАРЕЗЕРВИРОВАННЫЕ**</item>
+        <item>**СЛОВА**</item>
+        <item>КАРТА  -> показать карту</item>
+        <item>ОТМЕНА -> отменить поиск или действие</item>
+        <item>ПОМОЩЬ -> показать экран помощи</item>
+        <item>********</item>
+        <item>**ПОИСКОВЫЕ**</item>
+        <item>**ЗАПРОСЫ**</item>
+        <item><![CDATA[B… -> BP]]></item>
+        <item><![CDATA[M… -> MP]]></item>
+        <item><![CDATA[K… -> CLC]]></item>
+        <item><![CDATA[T… -> CLT]]></item>
+        <item><![CDATA[E… -> DEKORAMA]]></item>
+        <item><![CDATA[H… -> DN]]></item>
+        <item><![CDATA[Д… -> DS]]></item>
+        <item><![CDATA[Ф… -> FY]]></item>
+        <item><![CDATA[Г… -> GP]]></item>
+        <item><![CDATA[И… -> SJ]]></item>
+        <item><![CDATA[П… -> PALOMA]]></item>
+        <item><![CDATA[У… -> SY]]></item>
+        <item><![CDATA[C… -> SLV]]></item>
+        <item><![CDATA[А… -> TD]]></item>
+        <item><![CDATA[Р… -> TF]]></item>
+        <item><![CDATA[Ж… -> XJ]]></item>
+        <item><![CDATA[Б… -> ZG]]></item>
+        <item>********</item>
+        <item>**ПРИМЕР**</item>
+        <item>**ЗАПРОСА**</item>
+        <item>********</item>
+        <item>Если 117 Авто -> Е=DEC, 117, A=A. Результат => DEC-117A</item>
+    </string-array>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="add_new_position">Add</string>
+    <string name="login">Sign In</string>
+    <string name="email">email: example@xxx.ru</string>
+    <string name="password">password</string>
+    <string name="connect">Заходи</string>
+    <string name="logout">Выйти</string>
+    <string name="done">Done</string>
+    <string name="wait">Wait...</string>
+    <string name="success">Success!</string>
+    <string name="failed">Failed</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="options">Настройки</string>
+    <string name="cancel">Отмена</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="address">Адрес</string>
+    <string name="edit">Править</string>
+    <string name="delete">Удалить</string>
+    <string name="r_btn_nizA">НА</string>
+    <string name="r_btn_nizB">НБ</string>
+    <string name="r_btn_nizC">НВ</string>
+    <string name="r_btn_nizD">НГ</string>
+    <string name="r_btn_verhA">ВА</string>
+    <string name="r_btn_verhB">ВБ</string>
+    <string name="r_btn_ximA">ХА</string>
+    <string name="btn_backward">Назад</string>
+    <string name="btn_forward">Вперед</string>
+    <string name="stellag_tag">Стеллаж</string>
+    <string name="vertical_tag">Вертикаль</string>
+    <string name="horizontal_tag">Горизонталь</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="sklad_tag">Склад</string>
+    <string name="r_btn_none">НЕТ</string>
+    <string name="menu_item_save">Записать</string>
+    <string name="title_activity_clear">ClearA</string>
+    <string name="clear">ПУСТО</string>
+</resources>

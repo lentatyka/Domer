@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_navigation_graph"
+    app:startDestination="@id/productFragment">
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.domer.screens.edit.fragments.start.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_stellagFragment"
+            app:destination="@id/stellagFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stellagFragment"
+        android:name="com.example.domer.screens.edit.fragments.stellag.StellagFragment"
+        android:label="fragment_stellag"
+        tools:layout="@layout/fragment_stellag" >
+        <action
+            android:id="@+id/action_stellagFragment_to_productFragment"
+            app:destination="@id/productFragment"
+            app:popUpTo="@id/edit_navigation_graph" />
+    </fragment>
+</navigation>

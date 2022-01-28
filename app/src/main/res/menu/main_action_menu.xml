@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="@string/searchView"
+        android:icon="@drawable/icon_search_view"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/btm_mic"
+        android:title="@string/menu_item_mic"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_mic"
+        android:visible="false"/>
+    <item
+        android:id="@+id/btn_map"
+        android:title="@string/menu_item_map"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_map"
+        android:visible="false"/>
+    <item
+        android:id="@+id/btn_help"
+        android:title="@string/menu_item_help"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_help"
+        android:visible="false"/>
+    <item
+        android:id="@+id/btn_search"
+        android:title="@string/menu_item_search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_search"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/btn_options"
+        android:title="@string/menu_item_options"
+        app:showAsAction="never"
+        android:icon="@drawable/icon_options"
+        />
+    <item
+        android:id="@+id/btn_logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+</menu>

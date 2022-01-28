@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965789679861",
+    "firebase_url": "https://domer-f98b7-default-rtdb.firebaseio.com",
+    "project_id": "domer-f98b7",
+    "storage_bucket": "domer-f98b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965789679861:android:00b5b7542a48d940ae45bc",
+        "android_client_info": {
+          "package_name": "com.example.domer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965789679861-3ns42h2bpab8gv47nhom5ku0o4teu86e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD5LM3CfWZEABiz-3-LhUZ0W6Qc1czD2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965789679861-3ns42h2bpab8gv47nhom5ku0o4teu86e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
